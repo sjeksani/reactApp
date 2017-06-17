@@ -31,17 +31,9 @@ module.exports = {
                 }],
             },
 
-            // Loaders for other file types can go here
-
         ]
     },
-    /*plugins: [
-        new webpack.optimize.CommonsChunkPlugin({
-            name: 'commons',
-            filename: 'commons.js',
-            minChunks: 2,
-        }),
-    ],*/
+
     devServer: {
         contentBase: process.cwd(), // New
     },
