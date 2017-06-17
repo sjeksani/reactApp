@@ -2,7 +2,7 @@ const path = require('path');
 const webpack = require('webpack');
 
 module.exports = {
-    context: path.resolve(__dirname),
+    context: process.cwd(),
 
     entry: {
         app: './main.js',
@@ -43,6 +43,6 @@ module.exports = {
         }),
     ],*/
     devServer: {
-        contentBase: path.resolve(__dirname, './src'), // New
+        contentBase: process.cwd(), // New
     },
 };
