@@ -3,13 +3,14 @@ const webpack = require('webpack');
 
 module.exports = {
     context: path.resolve(__dirname, './src'),
+
     entry: {
         app: './main.js',
         //vendor: ['react', 'react-dom'],
     },
 
     output: {
-        path: path.resolve(__dirname, './folder'),
+        path: __dirname,
         filename: '[name].bundle.js',
         publicPath: '/assets',
     },
