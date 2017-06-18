@@ -15,8 +15,8 @@ class App extends React.Component {
 
             < div >
             < Heading / >
-            < input value = "lastname" / >
-            Last Name: < input / >
+            < input / >
+            < input labelName = "First Name" / >
             < br / >
             < br / >
             Address: < input / > < br / > < br / >
